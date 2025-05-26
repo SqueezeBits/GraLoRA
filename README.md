@@ -1,4 +1,4 @@
-# GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+# <img src="./figure/granola.png" alt=":party:" style="width:30px; vertical-align:middle;"> GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
 
 This repository contains the official implementation of **GraLoRA**.
 
