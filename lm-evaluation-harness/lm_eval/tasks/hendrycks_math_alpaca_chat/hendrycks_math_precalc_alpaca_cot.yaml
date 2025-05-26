@@ -1,0 +1,3 @@
+include: hendrycks_math_algebra_alpaca_cot.yaml
+dataset_name: precalculus
+task: hendrycks_math_precalc_alpaca_cot

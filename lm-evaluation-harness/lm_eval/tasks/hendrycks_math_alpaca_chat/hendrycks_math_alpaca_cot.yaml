@@ -1,0 +1,9 @@
+group: hendrycks_math_alpaca_cot
+task:
+  - hendrycks_math_algebra_alpaca_cot
+  - hendrycks_math_counting_and_prob_alpaca_cot
+  - hendrycks_math_geometry_alpaca_cot
+  - hendrycks_math_intermediate_algebra_alpaca_cot
+  - hendrycks_math_num_theory_alpaca_cot
+  - hendrycks_math_prealgebra_alpaca_cot
+  - hendrycks_math_precalc_alpaca_cot

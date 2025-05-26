@@ -1,0 +1,13 @@
+This project includes and modifies code from the following sources:
+
+1. RaSA (https://github.com/zwhe99/RaSA)  
+   Licensed under the MIT License.
+   
+2. LLM-Adapters (https://github.com/AGI-Edgerunners/LLM-Adapters)  
+   Licensed under the Apache License, Version 2.0.
+
+
+Unless otherwise stated, all modifications and new contributions in this repository
+are licensed under the Apache License, Version 2.0.
+
+See CREDITS for full terms.
