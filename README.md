@@ -1,4 +1,4 @@
-# <img src="./figure/granola.png" alt=":party:" style="width:30px; vertical-align:middle;"> GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+# GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
 
 This repository contains the official implementation of **GraLoRA**.
 
@@ -54,8 +54,10 @@ Training scripts for all main experiments are available in `./scripts/train`.
 To reproduce a specific experiment, run:
 
 ```bash
-./scripts/train/target_train_script.sh
+./scripts/train/$TARGET_TRAIN_SCRIPT
 ```
+
+A detailed explanation of how to run the scripts can be found in the [README_TRAIN.md](./scripts/train/README_TRAIN.md) file.
 
 We provide separate scripts for each task. While their behavior is nearly identical, the **instruction formats** for Alpaca-chat differ slightly. We adopted the chat formats used by the original repositories:  
 - [RaSA](https://github.com/zwhe99/RaSA) for Code Generation  
@@ -70,8 +72,10 @@ Evaluation scripts for all tasks are located in `./scripts/eval`.
 To run an evaluation:
 
 ```bash
-./scripts/eval/target_eval_script.sh
+./scripts/eval/$TARGET_EVAL_SCRIPT
 ```
+
+A detailed explanation of how to run the scripts can be found in the [README_EVAL.md](./scripts/eval/README_EVAL.md) file.
 
 ### Code Generation
 
