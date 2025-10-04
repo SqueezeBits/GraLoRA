@@ -1,4 +1,4 @@
-# GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+# [NeurIPS2025 Spotlight🌟] GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
 
 This repository contains the official implementation of **GraLoRA**.
 
@@ -143,6 +143,24 @@ GraLoRA achieves superior performance on the HumanEval+ task:
 ![Result](./figure/code_generation_result.png)
 
 
+## 🔥 News 🔥
+
+- [2025/09] GraLoRA is accepted by NeurIPS 2025 as a **spotlight**🌟
+- [2025/05] GraLoRA is open-sourced!
+
+## 🔗 BibTeX 🔗
+
+```bibtex
+@article{jung2025gralora,
+      title={GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning}, 
+      author={Yeonjoon Jung and Daehyun Ahn and Hyungjun Kim and Taesu Kim and Eunhyeok Park},
+      year={2025},
+      eprint={2505.20355},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.20355}, 
+}
+```
 
 ## 🤝 Acknowledgements
 
