@@ -4,7 +4,13 @@ This repository contains the official implementation of **GraLoRA**.
 
 ![GraLoRA](./figure/gralora_overview.png)
 
----
+## 🔥 News 🔥
+
+- [2025/11] GraLoRA is now available in the [HuggingFace PEFT Library](https://github.com/huggingface/peft/blob/main/examples/gralora_finetuning/README.md) 🚀
+- [2025/09] GraLoRA is accepted by NeurIPS 2025 as a **spotlight**🌟
+- [2025/05] GraLoRA is open-sourced!
+
+
 
 ## Environment Setup
 
@@ -21,7 +27,6 @@ pip3 install -e ./bigcode-evaluation-harness --config-settings editable_mode=com
 ```
 For a stable setup, it is recommended to work on top of the `nvcr.io/nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04` Docker image.
 
----
 
 ## Download Datasets
 
@@ -45,7 +50,6 @@ For a stable setup, it is recommended to work on top of the `nvcr.io/nvidia/cuda
    Download manually from [LLM-Adapters Dataset](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset)  
    and store the dataset in `./data/`.
 
----
 
 ## Training Scripts
 
@@ -63,7 +67,6 @@ We provide separate scripts for each task. While their behavior is nearly identi
 - [RaSA](https://github.com/zwhe99/RaSA) for Code Generation  
 - [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters) for Commonsense Reasoning
 
----
 
 ## Evaluation Scripts
 
@@ -118,7 +121,6 @@ python3 code_evaluation.py \
 
 The final result will be saved at `EXP_DIR/results.json`.
 
----
 
 ### Commonsense Reasoning
 
@@ -134,19 +136,12 @@ python3 commonsense_evaluate.py \
 
 The final result will be saved at `EXP_DIR/${TASK_NAME}.txt`.
 
----
 
 ## Results
 
 GraLoRA achieves superior performance on the HumanEval+ task:
 
 ![Result](./figure/code_generation_result.png)
-
-
-## 🔥 News 🔥
-
-- [2025/09] GraLoRA is accepted by NeurIPS 2025 as a **spotlight**🌟
-- [2025/05] GraLoRA is open-sourced!
 
 ## 🔗 BibTeX 🔗
 
